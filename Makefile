@@ -6,7 +6,6 @@ BIN_DIR=bin
 all:
 	mkdir -p $(BIN_DIR)
 	$(CC) $(CFLAGS) $(SRC_DIR)/hello.c -o $(BIN_DIR)/hello
-	test
 
 run: all
 	clear
